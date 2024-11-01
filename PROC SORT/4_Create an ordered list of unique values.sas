@@ -1,4 +1,4 @@
-/* Create CLASSTEST Table */
+/* Create CLASSTEST Table */ 
 data classtest;
    infile datalines dsd;
    input
