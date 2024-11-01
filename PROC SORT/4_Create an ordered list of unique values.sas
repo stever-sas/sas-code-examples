@@ -26,7 +26,12 @@ run;
 title "CLASSTEST table before sorting";
 proc print data=classtest;
 run;
-title;
+
+/************************************************************************************************/
+/* CREATE AN ORDERED LIST OF UNIQUE VALUES                                                      */
+/*     This program generates a list of unique names by keeping only the Name column from the   */
+/*     input table and using NODUPKEY to remove duplicate values of Name.                       */
+/************************************************************************************************/
 
 proc sort data=classtest(keep=Name) out=classtest_sort nodupkey;
     by Name;
@@ -35,3 +40,4 @@ run;
 title "CLASSTEST_SORT table keeping only Name and removing duplicates";
 proc print data=classtest_sort;
 run;
+title;

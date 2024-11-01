@@ -27,6 +27,13 @@ title "CLASSTEST table before sorting";
 proc print data=classtest;
 run;
 
+/************************************************************************************************/
+/* RETAINING THE FIRST ROW IN EACH BY GROUP                                                     */
+/*     The first PROC SORT arranges rows by desending scores for each Name and Subject. The     */
+/*     second PROC SORT keeps only the first occurance of each Name and Subject combination.    */
+/*     Rows that are removed are saved to a separate table named CLASSTEST_DUPS.                */
+/************************************************************************************************/
+
 proc sort data=classtest out=classtest_sort;
     by Name Subject descending Score;
 run;
