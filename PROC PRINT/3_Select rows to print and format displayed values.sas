@@ -14,3 +14,4 @@ proc print data=sashelp.class noobs;
     format Height Weight 3.0   /*2*/
            Name $upcase8.;
 run;
+title;

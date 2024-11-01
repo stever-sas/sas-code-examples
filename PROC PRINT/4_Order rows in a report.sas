@@ -9,5 +9,7 @@ proc sort data=sashelp.class out=class_sort;
     by Age desending Height;
 run;
 
+title "Listing of SASHELP.CLASS Sorted by Age, Height";
 proc print data=class_sort;
 run;
+title;

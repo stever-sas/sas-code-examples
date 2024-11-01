@@ -4,6 +4,7 @@
 /*     the output report is not in the data but is displayed by default.                        */
 /************************************************************************************************/
 
-title "Listing of CLASS";
+title "Listing of SASHELP.CLASS";
 proc print data=sashelp.class;
 run;
+title;

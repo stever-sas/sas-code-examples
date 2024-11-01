@@ -10,12 +10,12 @@ proc sort data=sashelp.class out=class_sort;  /*1*/
     by Age;
 run;
 
-title "Listing of SASHELP.CLASS by Age (BY statement)";
+title "Listing of SASHELP.CLASS Grouped By Age (BY statement)";
 proc print data=class_sort;                   /*2*/
     by Age;
 run;
 
-title "Listing of SASHELP.CLASS by Age (BY and ID statements)";
+title "Listing of SASHELP.CLASS Grouped By Age (BY and ID statements)";
 proc print data=class_sort;                   /*3*/
     by Age;
     id Age;
