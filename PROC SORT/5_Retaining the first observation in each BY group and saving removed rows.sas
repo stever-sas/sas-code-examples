@@ -30,7 +30,7 @@ run;
 /************************************************************************************************/
 /* RETAINING THE FIRST ROW IN EACH BY GROUP                                                     */
 /*     The first PROC SORT arranges rows by desending scores for each Name and Subject. The     */
-/*     second PROC SORT keeps only the first occurance of each Name and Subject combination.    */
+/*     second PROC SORT keeps only the first occurence of each Name and Subject combination.    */
 /*     Rows that are removed are saved to a separate table named CLASSTEST_DUPS.                */
 /************************************************************************************************/
 
