@@ -23,16 +23,16 @@ Jane,Reading,96
 ;;;;
 run;
 
+title "CLASSTEST table before sorting";
+proc print data=classtest;
+run;
+
 /************************************************************************************************/
 /* REMOVE ENTIRELY DUPLICATED ROWS                                                              */
 /*     This program sorts rows by all columns so that duplicated rows will be sequential.       */
 /*     The NODUPKEY option deletes rows with duplicate BY values, thus eliminating entirely     */
 /*     duplicated rows.                                                                         */
 /************************************************************************************************/
-
-title "CLASSTEST table before sorting";
-proc print data=classtest;
-run;
 
 proc sort data=classtest out=classtest_sort nodupkey;
     by _all_;
