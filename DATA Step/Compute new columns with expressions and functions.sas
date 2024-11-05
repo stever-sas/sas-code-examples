@@ -1,4 +1,4 @@
-data cars_new;
+data cars_new; 
     set sashelp.cars;
     where Origin="Europe";
     KmH_Highway=MPG_Highway*1.609344;
