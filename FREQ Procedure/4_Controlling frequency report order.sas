@@ -6,7 +6,7 @@
 /*     SAS Versions: SAS 9, SAS Viya                                                            */
 /*     1. The default order is based on the sort sequence of the data values of TYPE.           */
 /*     2. The ORDER=FREQ option orders the report by descending frequency.                      */
-/*     3. The PROC FORMAT step creates a format to group MPG values into 3 fuel efficiency      */
+/*     3. The PROC FORMAT step creates a format to combine MPG values into 3 fuel efficiency    */
 /*        groups.                                                                               */
 /*     4. The FuelEff format is applied to the MPG_Highway column. The default sort order is    */
 /*        the sort sequence of the internal (or unformatted) values.                            */
