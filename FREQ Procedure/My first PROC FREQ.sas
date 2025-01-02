@@ -1,17 +1,31 @@
 /************************************************************************************************/
-/* BASIC FREQUENCY COUNTS                                                                       */
-/*     This program generates frequency counts for each unique value of TYPE in the             */
+/* BASIC FREQUENCY REPORTS                                                                      */
+/*     This program generates frequency counts for each unique values in columns in the         */
 /*          SASHELP.CARS table.                                                                 */
 /*     Primary Syntax: PROC FREQ                                                                */
 /*     SAS Versions: SAS 9, SAS Viya                                                            */
-/*     1. The DATA= option names in the input table.                                            */
-/*     2. The TABLE or TABLES statement names the column(s) to generate frequency counts.       */
-/*     <Additional lines as necessary>                                                          */
+/*     1. The default PROC FREQ step generates a frequency report for each column in the table. */
+/*     2. The TABLE or TABLES statement with one or more columns listed with spaces inbetween   */
+/*          generates a separate frequency table for each column.                               */
+/*     3. If an asterisk is used between columns, the report shows frequency counts for the     */
+/*        combination of unique values between the columns.                                     */
 /************************************************************************************************/
 
-title "Number of Cars by TYPE";
+title "Frequency Counts for All Columns";
 proc freq data=sashelp.cars;    /*1*/
-    tables type;                /*2*/
 run;
 title;
+
+title "Frequency Counts for TYPE or ORIGIN";
+proc freq data=sashelp.cars;    
+    tables type origin;         /*2*/
+run;
+title;
+
+title "Frequency Counts for Combination of TYPE and ORIGIN";
+proc freq data=sashelp.cars;    
+    tables type*origin;         /*3*/
+run;
+title;
+
 
