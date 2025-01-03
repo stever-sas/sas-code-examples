@@ -5,6 +5,7 @@ Use the following comment block template for each SAS program:
 /*     <Description>                                                                            */
 /*     Primary Syntax: PROC PRINT                                                               */
 /*     SAS Versions: <SAS 9>, <SAS Viya>                                                        */
+/*     Documentation: <link>
 /*     1. <Description of comment identified by /*1*/ in the program>                           */
 /*     2. <Description of comment identified by /*2*/ in the program>                           */
 /*     <Additional lines as necessary>                                                          */
