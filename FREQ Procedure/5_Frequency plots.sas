@@ -14,7 +14,9 @@ proc freq data=sashelp.cars;
     tables type / plots=freqplot;    /*1*/          
 run;
 
-title "Frequency Distribution of TYPE";
+title "Descending Frequency Distribution of TYPE";
 proc freq data=sashelp.cars order=freq;  /*2*/
     tables type / plots=freqplot;             
 run;
+
+
