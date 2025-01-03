@@ -19,6 +19,7 @@ Example:
 /*                  to modify the displayed values.                                             */
 /*     Primary Syntax: PROC PRINT                                                               */
 /*     SAS Versions: SAS 9, SAS Viya                                                            */
+/*     Documentation: https://go.documentation.sas.com/doc/en/pgmsascdc/default/proc/p10qiuo2yicr4qn17rav8kptnjpu.htm */
 /*     1. The WHERE statement filters the input data to display rows with Age greater than 13.  */
 /*     2. The FORMAT statement applies the numeric 3.0 format to Height and Weight. 3           */
 /*        represents the width of the display field and 0 indicates the number of decimal       */
