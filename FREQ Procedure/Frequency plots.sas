@@ -1,6 +1,6 @@
 /************************************************************************************************/
 /* CREATE FREQUENCY PLOTS                                                                       */
-/*     This program uses the PLOT= option on the TABLES statement to generate frequency plots.  */
+/*     This program uses the PLOT= option on the TABLES statement to generate a frequency plot. */
 /*     Primary Syntax: PROC FREQ                                                                */
 /*     SAS Versions: SAS 9, SAS Viya                                                            */
 /*     1. The PLOT=FREQPLOT option generates a bar chart representing the frequency of each     */
