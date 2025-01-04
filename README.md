@@ -3,7 +3,7 @@
 This repository provides a collection of example SAS programs. Each program is stand-alone, so it can be excuted in your SAS execution environment of choice to view the log and results. 
 
 ## Instructions for creating sample programs
-* Use the standard comment block at the top of the program. Access the comment template and example. The comment includes the following information:
+* Use the standard comment block at the top of the program. [Access comment-template.txt to view the comment template and an example](https://github.com/stever-sas/sas-code-examples/blob/400d5fe7b9b914319439f773f10beb13d2a49a29/comment-template.txt). The comment includes the following information:
   - TITLE: Brief program description in ALL CAPS
   - Description: A detailed explanation of the objective of the program
   - SAS Version: List the versions of SAS for the program, such as SAS 9 or SAS Viya. Note that most programs will run in both SAS 9 and Viya.
