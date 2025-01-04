@@ -4,6 +4,7 @@
 /*         new computed columns, and formatted values.                                          */
 /*     Primary Syntax: DATA step                                                                */
 /*     SAS Versions: SAS 9, SAS Viya                                                            */
+/*     Documentation: https://go.documentation.sas.com/doc/en/pgmsascdc/default/lestmtsref/p1hglxgj1sjhdzn18soqrqmvogvj.htm */
 /*     1. Create a new table in the default WORK library named CARS_NEW.                        */
 /*     2. Read the existing table SASHELP.CARS.                                                 */
 /*     3. Only read rows from the input table where Origin equals Europe. Character values must */
