@@ -1,6 +1,6 @@
 <!-- A SECURITY.md outlines your project's security policy. It includes instructions on how to report a security vulnerability in your project. If your project contains this file, link to it from the project's README. -->
 
-# PROJECT_NAME Security Policy
+# SAS-CODE-EXAMPLES Security Policy
 <!-- Replace PROJECT_NAME with the official name of your SAS-sanctioned open source project. -->
 
 Project mainainers and community contributors take security issues seriously.
